@@ -59,7 +59,7 @@ setup(
         'requests>=2.12.4',
         'ruamel.yaml<=0.15.70',
         'tqdm>=4.26.0',
-        'urllib3<1.25,>=1.21.1',            # required by requests
+        'urllib3>=1.21.1,<1.27',            # required by requests
     ],
     extras_require={
         'pyarrow': [
